@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row mt-3">
+            <form class="col-4 search-form">
+                <input type="text" class="form-control search-input" value="Fast" placeholder="Search ...">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        <div class="row mt-3">
+            <div class="col-2">
+
+            </div>
+            <div class="col-10">
+                <div class="row movies">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <template id="movie-item">
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top movie-image" src="http://picsum.photos/200/200" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title movie-title">Card title</h5>
+                    <p class="card-text movie-description">Some quick example text to build on the card title and make
+                        up the
+                        bulk of the card's
+                        content.</p>
+                    <a href="#" class="btn btn-danger delete">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </template>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
